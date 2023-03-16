@@ -1,0 +1,992 @@
+/* General Information & Header */
+body{
+    font-family: Coquette;
+    color: rgb(125, 106, 63);
+    background-color: rgb(238, 238, 192);
+    background-image: url(image/backgroundimage.PNG);
+    background-repeat: no-repeat;
+    background-size: 1720px;
+    background-position: center 640px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 100px;
+}
+
+
+h1{
+    font-size: 70px;
+    text-align: center;
+}
+
+
+h2{
+    font-size: 45px;
+    background-color: none;
+    height: 320px;
+    width: fit-content;
+}
+
+
+div h2{
+    font-size: 45px;
+    padding-top: 20px;
+    padding-bottom: none;
+    height: 100px;
+    background-color: none;
+}
+
+
+h3{
+    font-size: 55px;
+    text-align: center;
+    background-color: none;
+    height: 350px;
+    padding: 200px;
+}
+
+
+h4{
+    font-size: 16px;
+    font-family: Agenda;
+    padding: none;
+}
+
+
+header{
+    margin-top: -20px;
+    padding-bottom: 400px;
+    background-color: none;
+}
+
+
+
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 400px;
+    margin-top: -425px;
+}
+
+
+
+
+.btn {
+    border: 1px solid rgb(125, 106, 63);
+    border-radius: 4px;
+    padding: 12px 22px;
+    font-family: Agenda;
+    color: rgb(238, 238, 192);
+    background-color: rgb(125, 106, 63);
+    transition: 0.5 ease;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.btn:hover {
+    /* font-size: 22px;
+    padding: 15px 24px; */
+    box-shadow: 0 14px 24px 0 rgba(0,0,0,0.24),0 14px 24px 0 rgba(0,0,0,0.19);
+  }
+
+
+
+
+
+
+.square{
+    width: 100vw; 
+    height: 650px; 
+    background-image: url('image/catlovers.png');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+.reasonbutton{
+    border: 1px solid rgb(125, 106, 63);
+    border-radius: 4px;
+    padding: 12px 22px;
+    font-family: Agenda;
+    color: rgb(238, 238, 192);
+    background-color: rgb(125, 106, 63);
+    transition: 0.5 ease;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.reasonbutton:hover {
+    box-shadow: 0 14px 24px 0 rgba(0,0,0,0.24),0 14px 24px 0 rgba(0,0,0,0.19);
+  }
+
+.learnmorebutton{
+    border: 1px solid rgb(125, 106, 63);
+    border-radius: 4px;
+    padding: 12px 22px;
+    font-family: Agenda;
+    color: rgb(238, 238, 192);
+    background-color: rgb(125, 106, 63);
+    transition: 0.5 ease;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.learnmorebutton:hover {
+    box-shadow: 0 14px 24px 0 rgba(0,0,0,0.24),0 14px 24px 0 rgba(0,0,0,0.19);
+  }
+
+.custombutton{
+    border: 1px solid rgb(125, 106, 63);
+    border-radius: 4px;
+    padding: 12px 22px;
+    font-family: Agenda;
+    color: rgb(238, 238, 192);
+    background-color: rgb(125, 106, 63);
+    transition: 0.5 ease;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.custombutton:hover {
+    box-shadow: 0 14px 24px 0 rgba(0,0,0,0.24),0 14px 24px 0 rgba(0,0,0,0.19);
+  }
+
+
+
+
+
+
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-menu{
+    opacity: 0;
+    position: absolute;
+    background-color:  rgb(125, 106, 63);
+    border-radius: 4px;
+    top: 40px;
+    box-shadow: 0 2px 5px 0 black;
+    transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+    z-index: 1;
+}
+
+
+.dropdown:hover .dropdown-menu{
+    opacity: 1;
+}
+
+
+.dropdown-menu ul li button{
+    width: 160px;
+    height: 40px;
+    text-align: left;
+    opacity: 1;
+    font-family: Agenda;
+    font-size: 18px;
+    margin-left: 0px;
+    color: rgb(238, 238, 192);
+    background-color: rgb(125, 106, 63);
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+.dropdown-menu ul li button:hover{
+    background-color: rgb(106, 88, 48);
+    box-shadow: 0 2px 5px black;
+}
+
+
+
+
+
+
+
+
+
+.dropdown2{
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-menu2{
+    opacity: 0;
+    position: absolute;
+    background-color:  rgb(125, 106, 63);
+    top: 40px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 black;
+    transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+    z-index: 1;
+}
+
+
+.dropdown2:hover .dropdown-menu2{
+    opacity: 1;
+}
+
+
+
+.dropdown-menu2 ul li button{
+    width: 160px;
+    height: 40px;
+    text-align: left;
+    opacity: 1;
+    font-family: Agenda;
+    font-size: 18px;
+    margin-left: 0px;
+    color: rgb(238, 238, 192);
+    background-color: rgb(125, 106, 63);
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+.dropdown-menu2 ul li button:hover{
+    background-color: rgb(106, 88, 48);
+    box-shadow: 0 2px 5px black;
+}
+
+
+
+
+.dropdown3{
+    position: relative;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(92, 77, 42);
+    opacity: 0.8;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+    margin-left: 20px;
+    font-weight: 600;
+  }
+  
+  li a {
+    display: block;
+    font-size: larger;
+    color:  rgb(238, 238, 192);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+.uploader{
+    background-color: none;
+    text-align: center;
+}
+
+
+.subheader1{
+    padding: 350px;
+    background-color: none;
+    text-align: center;
+    margin-top: 115px;
+}
+
+
+.subheader2{
+    padding: 350px;
+    background-color: none;
+    margin-top: -610px
+}
+
+
+.history{
+    margin-left: 100px;
+    width: 810px;
+    padding-bottom: 120px;
+    padding-right: 500px;
+    margin-top: -400px;
+}
+
+
+p{
+    font-size: 32.5px;
+    padding-bottom: 340px;
+    font-family: Agenda;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+.logo img{
+    width: 220px;
+    height: auto;
+    float: initial;
+    padding-bottom: none;
+    margin-top: 180px;
+    margin-left: 41%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* All Images */
+.circlecat{
+    width: 500px;
+    height: auto;
+}
+
+
+.squarecat{
+    width: 400px;
+    height: auto;
+}
+
+
+.pipecat{
+    width: 330px;
+    height: auto;
+}
+
+
+.beautifulcat{
+    float: right;
+    padding-bottom: 150px;
+    padding-left: -20px;
+    margin-top: -40px;
+    margin-right: 360px;
+    width: 310px;
+    height: auto;
+}
+
+
+
+
+.stretchingcat{
+    float: left;
+    margin-left: 220px;
+    margin-top: 20px;
+    padding-bottom: 150px;
+    width: 500px;
+    height: auto;
+}
+
+
+.surprisedcat{
+    float: right;
+    margin-right: 30%;
+    padding: none;
+    width: 400px;
+    height: auto;
+}
+
+
+.chubbycat{
+    width: 500px;
+    height: auto;
+    margin-left: 290px;
+    margin-top: -150px;
+}
+
+
+.tortoiseshell{
+    width: 440px;
+    height: auto;
+    float: right;
+    margin-right: 150px;
+    margin-top: -75px;
+}
+
+
+.windowcat{
+    margin-left: 15%;
+    padding: none;
+    width: 360px;
+    height: auto;
+}
+
+
+.infinitecutecat{
+    float: right;
+    margin-right: 25%;
+    margin-top: 40px;
+    width: 420px;
+    height: auto;
+    padding: 0px;
+}
+
+
+.groomingcat{
+    float: left;
+    margin-left: 18%;
+    width: 450px;
+    height: auto;
+}
+
+
+
+
+.catandboy{
+    float: right;
+    margin-right: 120px;
+    margin-bottom: 90px;
+    margin-top: -150px;
+    width: 450px;
+    height: auto;
+}
+
+
+
+
+.mycats{
+    margin-left: 345px;
+    margin-top: -150px;
+    margin-bottom: 0px;
+    padding: none;
+    width: 770px;
+    height: auto;
+}
+
+
+
+
+.cutekitty{
+    width: 385px;
+    height: auto;
+    margin-left: 540px;
+    margin-top: -300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section 1 Containers */
+.container1{
+    position: static;
+    padding-bottom: 80px;
+    margin-right: 20px;
+}
+
+
+.container1text{
+    position: static;
+}
+
+
+.container1images{
+    position: static;
+    margin-top: -60px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+
+.number1{
+    font-weight: bolder;
+    font-size: 200px;
+    margin-left: 215px;
+    margin-top: -225px;
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.container2{
+    justify-content: center;
+    padding-bottom: 500px;
+    position: static;
+    background-color: none;
+}
+
+
+.number2{
+    font-weight: bolder;
+    font-size: 200px;
+    margin-left: 380px;
+    margin-top: -225px;
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+.container3{
+    justify-content: center;
+    padding-bottom: 100px;
+    position: static;
+}
+
+
+.container3 h2{
+    margin-left: 20px;
+    margin-top: 45px;
+}
+
+
+.number3{
+    font-weight: bolder;
+    font-size: 200px;
+    margin-top: -230px;
+    margin-left: -500px;
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+.container4{
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    position: static;
+    margin-top: 98px;
+}
+
+
+.containerextraimages{
+    position: static;
+}
+
+
+.number4{
+    font-weight: bolder;
+    font-size: 200px;
+    margin-left: 270px;
+    margin-top: -270px;
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.container5{
+    justify-content: center;
+    position: static;
+    margin-top: 100px;
+}
+
+
+.number5{
+    font-weight: bolder;
+    font-size: 200px;
+    margin-left: 350px;
+    margin-bottom: -163px;
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+.container6{
+    align-items: center;
+}
+
+
+.number6{
+    font-weight: bolder;
+    font-size: 200px;
+    margin-left: 350px;
+    margin-bottom: 280px;
+    margin-top: -370px;
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+/* .container7{
+    align-items: center;
+} */
+
+
+.number7{
+    font-weight: bolder;
+    font-size: 200px;
+    opacity: 0.5;
+    margin-top: -260px;
+    margin-bottom: 300px;
+    margin-left: -190px;
+    margin-right: 90px;
+    padding: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+.container8{
+    margin-left: 8px;
+}
+
+
+.number8{
+    font-weight: bolder;
+    font-size: 200px;
+    margin-left: 710px;
+    margin-bottom: 220px;
+    margin-top: -265px;
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+.container9{
+    align-items: center;
+}
+
+
+.number9{
+    font-weight: bolder;
+    font-size: 200px;
+    opacity: 0.5;
+    margin-top: -710px;
+    margin-left: 780px;
+    margin-bottom: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section 2 Cat Breeds */
+.abyssinian{
+    float: left;
+    width: 320px;
+    height: auto;
+}
+.abyssinianbutton{
+    font-family: Coquette;
+    border: 4px solid rgb(125, 106, 63);
+    border-radius: 8px;
+    color: rgb(125, 106, 63);
+    background-color: rgb(238, 238, 192);
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top: 475px;
+    margin-left: -280px;
+    margin-bottom: 30px;
+}
+.abyssinianbutton:hover{
+    color:rgb(238, 238, 192);
+    background-color:  rgb(125, 106, 63);
+}
+
+
+
+
+
+
+
+
+.russianblue{
+    float: right;
+    width: 360px;
+    height: auto;
+}
+.russianbutton{
+    font-family: Coquette;
+    border: 4px solid rgb(125, 106, 63);
+    border-radius: 8px;
+    color: rgb(125, 106, 63);
+    background-color: rgb(238, 238, 192);
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-left: 500px;
+    margin-top: -15px;
+    margin-bottom: 30px;
+}
+.russianbutton:hover{
+    color:rgb(238, 238, 192);
+    background-color:  rgb(125, 106, 63);
+}
+
+
+
+
+
+
+
+
+
+
+.siamesecat{
+    float: left;
+    width: 465px;
+    height: auto;
+}
+.siamesecatbutton{
+    font-family: Coquette;
+    border: 4px solid rgb(125, 106, 63);
+    border-radius: 8px;
+    color: rgb(125, 106, 63);
+    background-color: rgb(238, 238, 192);
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top: 350px;
+    margin-left: -400px;
+    margin-right: 100px;
+}
+.siamesecatbutton:hover{
+    color:rgb(238, 238, 192);
+    background-color:  rgb(125, 106, 63);
+}
+
+
+
+
+
+
+
+
+
+
+.sphinxcat{
+    float: right;
+    width: 360px;
+    height: auto;
+    margin-right: 65px;
+}
+.sphinxcatbutton{
+    font-family: Coquette;
+    border: 4px solid rgb(125, 106, 63);
+    border-radius: 8px;
+    color: rgb(125, 106, 63);
+    background-color: rgb(238, 238, 192);
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top: 280px;
+    margin-right: -300px;
+    margin-left: 400px;
+    margin-bottom: 30px;
+}
+.sphinxcatbutton:hover{
+    color:rgb(238, 238, 192);
+    background-color:  rgb(125, 106, 63);
+}
+
+
+
+
+
+
+
+
+
+
+.ragdoll{
+    float: left;
+    width: 465px;
+    height: auto;
+}
+.ragdollbutton{
+    font-family: Coquette;
+    border: 4px solid rgb(125, 106, 63);
+    border-radius: 8px;
+    color: rgb(125, 106, 63);
+    background-color: rgb(238, 238, 192);
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top: 350px;
+    margin-right: 90px;
+    margin-left: -360px;
+}
+.ragdollbutton:hover{
+    color:rgb(238, 238, 192);
+    background-color:  rgb(125, 106, 63);
+}
+
+
+
+
+
+
+
+
+
+
+.mainecoon{
+    float: right;
+    margin-right: 80px;
+    width: 520px;
+    height: auto;
+}
+.mainecoonbutton{
+    font-family: Coquette;
+    border: 4px solid rgb(125, 106, 63);
+    border-radius: 8px;
+    color: rgb(125, 106, 63);
+    background-color: rgb(238, 238, 192);
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 45px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-left: 400px;
+    margin-top: 15px;
+}
+.mainecoonbutton:hover{
+    color:rgb(238, 238, 192);
+    background-color:  rgb(125, 106, 63);
+}
