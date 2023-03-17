@@ -5,6 +5,37 @@ body{
     margin-left: 15px;
 }
 
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(92, 77, 42);
+    opacity: 0.8;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+    margin-left: 20px;
+    font-weight: 600;
+  }
+  
+  li a {
+    display: block;
+    font-size: larger;
+    color:  rgb(238, 238, 192);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
 h1{
     font-size: 70px;
     text-align: left;
